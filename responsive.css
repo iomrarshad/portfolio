@@ -1,0 +1,421 @@
+/* Responsive adjustments */
+/* @media (min-width: 992px) {
+  .cover-image-container {
+    position: relative;
+    top: 50px;
+  }
+
+  .card-container {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+} */
+
+
+
+/* Responsive Adjustments */
+/* @media (max-width: 992px) {
+  .intro-heading {
+    font-size: 1.8rem;
+  }
+} */
+@media (min-width: 1200px) {
+  .cover-image-container {
+    margin-top: 80px;
+  }
+
+  .cover-image {
+    max-width: 80%;
+  }
+
+  .scrolling-text-section {
+    padding: 0px;
+  }
+  .info-text{
+    padding: 0px 80px;
+  }
+  .footer-content{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 80px;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .cover-image {
+    max-width: 70%;
+  }
+
+  .cover-image-container {
+    margin-top: 80px;
+  }
+
+  .scrolling-text-section {
+    padding: 0px 0;
+  }
+
+  .info-text {
+    padding: 0px 50px;
+  }
+
+  .info-text-content h1 {
+    font-size: 4.5rem;
+  }
+
+  .skills-heading {
+    font-size: 4.8rem;
+  }
+
+  .footer-content {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-brand {
+    font-size: 2.2rem;
+    margin-left: 1rem;
+  }
+
+  .btn-resume {
+    font-size: 1.7rem;
+    padding: 0.4rem 1rem;
+  }
+
+  .cover-image-container {
+    margin-top: 90px;
+  }
+
+  .social-icons-vertical {
+    gap: 15px;
+  }
+
+  .social-icon {
+    font-size: 1.8rem;
+  }
+
+  .social-icons-horizontal .social-icon {
+    font-size: 30px;
+  }
+
+  .cover-image {
+    max-width: 90%;
+  }
+
+  .cover-image-container {
+    position: relative;
+  }
+
+  .scrolling-text-content {
+    font-size: 5rem;
+    margin-top: 0px;
+  }
+
+  .intro-heading {
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+
+  .info-text {
+    padding: 30px 30px;
+    margin-top: 5rem;
+  }
+
+  .info-text-content h1 {
+    font-size: 4rem;
+  }
+
+  .skills-section {
+    padding: 0px 40px;
+  }
+
+  .skills-heading {
+    font-size: 3.6rem;
+  }
+
+  .skills-description {
+    margin-bottom: 20px !important;
+    margin-top: 50px !important;
+  }
+
+  .project-section {
+    padding: 0px 40px;
+  }
+
+  .card-container {
+    flex: 0 0 100%;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-section .row {
+    justify-content: center;
+  }
+
+  .custom-3d-card {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  .footer-content {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .bottom-footer {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767.98px) {
+  .navbar-brand {
+    font-size: 2rem;
+  }
+
+  .btn-resume {
+    font-size: 1.5rem;
+  }
+
+  .cover-image-container {
+    margin-top: 90px;
+    width: 90%;
+  }
+
+  .social-icons-horizontal .social-icon {
+    font-size: 25px;
+  }
+
+  .scrolling-text-section {
+    padding: 10px 0px;
+  }
+
+  .scrolling-text-content {
+    font-size: 4.5rem;
+  }
+
+  .info-text {
+    margin-top: 5rem;
+    padding: 0px 20px;
+  }
+
+  .info-text-content h1 {
+    font-size: 3.3rem;
+  }
+
+  .skills-section {
+    padding: 0px 20px;
+  }
+
+  .skills-heading {
+    font-size: 2.6rem;
+  }
+
+  .skills-description {
+    font-size: 1.8rem;
+    margin: 0px 0px;
+  }
+
+  .logo-row {
+    justify-content: start;
+    gap: 5px;
+  }
+
+  .skill-logo {
+    padding: 0px;
+  }
+
+  .skill-logo img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .project-section {
+    padding: 0px 20px;
+  }
+
+  .projects-heading {
+    font-size: 2.8rem;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+  }
+
+  .custom-3d-card {
+    transform: rotateY(1deg) rotateX(15deg);
+  }
+
+  .project-section .row {
+    justify-content: center;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-content {
+    margin-top: 50px !important;
+    font-size: 2.8rem;
+    margin: 0px 20px;
+    text-align: center;
+  }
+
+  .bottom-footer {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+
+  .btn-resume {
+    font-size: 1rem;
+  }
+
+  .social-icons-vertical {
+    gap: 8px;
+    padding: 5px 8px;
+    right: -5px;
+  }
+
+  .social-icons-horizontal .social-icon {
+    font-size: 25px;
+  }
+
+  .social-icon {
+    font-size: 1.5rem;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    padding-top: 80px;
+  }
+
+  .cover-image-container {
+    height: 430px;
+    /* ya jitni bhi tumhein chahiye ho */
+    width: 90%;
+  }
+
+  .cover-image-container img {
+    height: 100%;
+    /* ya max-height: 100%; if needed */
+    object-fit: cover;
+    /* taake image container ke andar achhi lage */
+  }
+
+  .scrolling-text-section {
+    display: block !important;
+    /* Force show on mobile */
+  }
+
+  .scrolling-text-content {
+    font-size: 4rem;
+    margin-top: 0;
+  }
+
+  .info-text {
+    margin-top: 1rem;
+    padding: 0px 20px;
+  }
+
+  .info-text-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .intro-heading {
+    font-size: 1rem;
+    line-height: 3.7rem;
+    /* text-align: left !important; */
+    padding: 0 15px;
+  }
+
+  .info-text-content {
+    /* padding: 0 5px; */
+  }
+
+  .profession,
+  .ecom,
+  .woocom,
+  .shopi,
+  .odoo {
+    display: inline-block;
+    margin: 2px 0;
+  }
+
+  .skills-section {
+    margin-top: 1rem;
+    padding: 0px 20px;
+  }
+
+  .skills-heading {
+    font-size: 2rem;
+    /* text-align: center; */
+    padding-bottom: 0;
+  }
+
+  .skills-description {
+    font-size: 1.5rem;
+    margin: 0px 0px;
+    /* text-align: center; */
+  }
+
+  .logo-row {
+    gap: 5px;
+    justify-content: start;
+  }
+
+  .skill-logo {
+    padding: 0px;
+    min-width: 50px;
+  }
+
+  .skill-logo img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .project-section {
+    padding: 0px 20px;
+  }
+
+  .projects-heading {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  .projects-description {
+    font-size: 1.2rem;
+    padding-bottom: 50px;
+  }
+
+  .custom-3d-card {
+    transform: rotateY(0deg) rotateX(0deg);
+    width: auto;
+  }
+
+
+
+
+  .footer-content {
+    font-size: 2.5rem;
+    margin: 0px 20px;
+    text-align: center;
+    line-height: 3rem;
+  }
+
+  .bottom-footer {
+    font-size: 1.2rem;
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
+}
