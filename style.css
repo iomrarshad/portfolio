@@ -282,9 +282,9 @@ body {
 
 .custom-3d-card {
   position: relative;
-  width: 500px;
+  /* width: 500px; */
   color: #fff;
-  transform: rotateY(40deg) rotateX(0deg);
+  transform: rotateY(10deg) rotateX(0deg);
   transform-style: preserve-3d;
   transition: transform 0.8s ease;
   background-color: rgba(0, 0, 0, 0.2);

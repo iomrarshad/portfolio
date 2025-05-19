@@ -162,7 +162,10 @@
   .custom-3d-card {
     transform: rotateY(0deg) rotateX(0deg);
   }
-
+.custom-3d-card .layers .layer {
+    transform: none !important;
+    transition: none !important;
+  }
   .footer-content {
     font-size: 3rem;
     text-align: center;
@@ -325,7 +328,7 @@
 
   .info-text {
     margin-top: 1rem;
-    padding: 0px 20px;
+    padding: 0px 0px;
   }
 
   .info-text-content h1 {
@@ -380,8 +383,8 @@
   }
 
   .skill-logo img {
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
   }
 
   .project-section {
