@@ -18,9 +18,15 @@ body {
 /* Optional: Customize navbar styles if needed */
 .navbar {
   padding: 20px 0px;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1000;
+    background-color: transparent; /* default transparent */
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+.navbar.scrolled {
+  background-color: #2d2223b3; /* ya koi bhi semi-transparent dark bg */
 }
 
 .navbar-brand {
