@@ -21,11 +21,11 @@
 } */
 @media (min-width: 1200px) {
   .cover-image-container {
-    margin-top: 280px;
+    margin-top: 240px;
   }
 
   .cover-image {
-    max-width: 80%;
+    max-width: 60%;
   }
 
   .scrolling-text-section {
@@ -306,8 +306,8 @@
   .cover-image-container {
     height: 430px;
     /* ya jitni bhi tumhein chahiye ho */
-    width: 90%;
-    margin-top: 180px;
+    width: 84%;
+    margin-top: 150px;
   }
 
   .cover-image-container img {
